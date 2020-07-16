@@ -16,9 +16,9 @@ $(document).ready(function () {
     $(window).resize(function (e) {
         __contentScreenReadability($(this));
     });
-    $('#navigation a').live('click', function (e) {
+    $('#navigation a').not('.link-imece').on('click', function (e) {
         var _target = '#/' + $(this).attr('href').split('.')[0];
-		
+
         if (_target == '#/#fotograflar') {
             $.prettyPhoto.open(_api_images_1, _api_titles_1, _api_descriptions_1);
             return false;

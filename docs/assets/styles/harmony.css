@@ -84,7 +84,9 @@ hr {height:0px; border-top: 1px solid #1c1c1c; border-bottom: 1px solid #303030;
 --- Header
 --------------------------------------------------- */
 #header {
-	background:#121212; width:100%; height:42px;
+	background:#121212;
+	width:100%;
+	height:50px;
 	position:relative; z-index:500;
 	border-bottom:1px solid #242424;
 }
@@ -102,7 +104,7 @@ hr {height:0px; border-top: 1px solid #1c1c1c; border-bottom: 1px solid #303030;
 /* 
 --- Navigation
 --------------------------------------------------- */
-#navigation {position:absolute; bottom:4px; left:50%; margin-left:-285px;/*hard-coded, to center*/}
+#navigation {position:absolute; bottom:14px; left:50%; margin-left:-285px;/*hard-coded, to center*/}
 #navigation > ul {}
 #navigation li {display:inline; margin-right:16px; color:#aaa;}
 #navigation li:last-child {margin-right:0;}
@@ -112,6 +114,16 @@ hr {height:0px; border-top: 1px solid #1c1c1c; border-bottom: 1px solid #303030;
 #navigation li:first-child > a {display:inline-block; width:20px; height:20px; text-indent:-9999px; background:url(../images/tarikci-home-navigation-link-20px.png) no-repeat left top; line-height:30px;}
 #navigation li:first-child > a > img {display:block;} 
 
+#navigation .link-imece {
+	background-color: #eee;
+	border-radius: 12px;
+	text-shadow: none;
+	color: black;
+	padding: 0 12px;
+}
+#navigation .link-imece:hover {
+	color: #444;
+}
 /*.ajax-content-load-link {seperator class for ajax contet loader links, throws hashchange event}*/
 /*.main-page-forwarder-link {seperator class for main page forwarding}*/
 
