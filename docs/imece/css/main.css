@@ -1,0 +1,2042 @@
+/*!
+Sİte: https://abdurrahmantarikci.com/imece
+Description: Abdurrahman Tarikci's Imece Album
+*/
+/**
+ * Import normalize (from HTML5BOILERPLATE)
+ */
+/*!
+normalize.css v1.1.3 | MIT License | git.io/normalize */
+/* ==========================================================================
+	HTML5 display definitions
+	========================================================================== */
+/**
+ * Correct `block` display not defined in IE 6/7/8/9 and Firefox 3.
+ */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+/**
+ * Correct `inline-block` display not defined in IE 6/7/8/9 and Firefox 3.
+ */
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+/**
+ * Address styling not present in IE 7/8/9, Firefox 3, and Safari 4.
+ * Known issue: no IE 6 support.
+ */
+[hidden] {
+  display: none;
+}
+/* ==========================================================================
+	Base
+	========================================================================== */
+/**
+ * 1. Correct text resizing oddly in IE 6/7 when body `font-size` is set using
+ *    `em` units.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+html {
+  font-size: 100%;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+/**
+ * Address `font-family` inconsistency between `textarea` and other form
+ * elements.
+ */
+html,
+button,
+input,
+select,
+textarea {
+  font-family: sans-serif;
+}
+/**
+ * Address margins handled incorrectly in IE 6/7.
+ */
+body {
+  margin: 0;
+}
+/* ==========================================================================
+	Links
+	========================================================================== */
+/**
+ * Address `outline` inconsistency between Chrome and other browsers.
+ */
+a:focus {
+  outline: thin dotted;
+}
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+a:active,
+a:hover {
+  outline: 0;
+}
+/* ==========================================================================
+	Typography
+	========================================================================== */
+/**
+ * Address font sizes and margins set differently in IE 6/7.
+ * Address font sizes within `section` and `article` in Firefox 4+, Safari 5,
+ * and Chrome.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+h2 {
+  font-size: 1.5em;
+  margin: 0.83em 0;
+}
+h3 {
+  font-size: 1.17em;
+  margin: 1em 0;
+}
+h4 {
+  font-size: 1em;
+  margin: 1.33em 0;
+}
+h5 {
+  font-size: 0.83em;
+  margin: 1.67em 0;
+}
+h6 {
+  font-size: 0.67em;
+  margin: 2.33em 0;
+}
+/**
+ * Address styling not present in IE 7/8/9, Safari 5, and Chrome.
+ */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+/**
+ * Address style set to `bolder` in Firefox 3+, Safari 4/5, and Chrome.
+ */
+b,
+strong {
+  font-weight: bold;
+}
+blockquote {
+  margin: 1em 40px;
+}
+/**
+ * Address styling not present in Safari 5 and Chrome.
+ */
+dfn {
+  font-style: italic;
+}
+/**
+ * Address differences between Firefox and other browsers.
+ * Known issue: no IE 6/7 normalization.
+ */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+/**
+ * Address styling not present in IE 6/7/8/9.
+ */
+mark {
+  background: #ff0;
+  color: #000;
+}
+/**
+ * Address margins set differently in IE 6/7.
+ */
+p,
+pre {
+  margin: 1em 0;
+}
+/**
+ * Correct font family set oddly in IE 6, Safari 4/5, and Chrome.
+ */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  _font-family: 'courier new', monospace;
+  font-size: 1em;
+}
+/**
+ * Improve readability of pre-formatted text in all browsers.
+ */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+/**
+ * Address CSS quotes not supported in IE 6/7.
+ */
+q {
+  quotes: none;
+}
+/**
+ * Address `quotes` property not supported in Safari 4.
+ */
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+/* ==========================================================================
+	Lists
+	========================================================================== */
+/**
+ * Address margins set differently in IE 6/7.
+ */
+dl,
+menu,
+ol,
+ul {
+  margin: 1em 0;
+}
+dd {
+  margin: 0 0 0 40px;
+}
+/**
+ * Address paddings set differently in IE 6/7.
+ */
+menu,
+ol,
+ul {
+  padding: 0 0 0 40px;
+}
+/**
+ * Correct list images handled incorrectly in IE 7.
+ */
+nav ul,
+nav ol {
+  list-style: none;
+  list-style-image: none;
+}
+/* ==========================================================================
+	Embedded content
+	========================================================================== */
+/**
+ * 1. Remove border when inside `a` element in IE 6/7/8/9 and Firefox 3.
+ * 2. Improve image quality when scaled in IE 7.
+ */
+img {
+  border: 0;
+  /* 1 */
+  -ms-interpolation-mode: bicubic;
+  /* 2 */
+}
+/**
+ * Correct overflow displayed oddly in IE 9.
+ */
+svg:not(:root) {
+  overflow: hidden;
+}
+/* ==========================================================================
+	Figures
+	========================================================================== */
+/**
+ * Address margin not present in IE 6/7/8/9, Safari 5, and Opera 11.
+ */
+figure {
+  margin: 0;
+}
+/* ==========================================================================
+	Forms
+	========================================================================== */
+/**
+ * Correct margin displayed oddly in IE 6/7.
+ */
+form {
+  margin: 0;
+}
+/**
+ * Define consistent border, margin, and padding.
+ */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+/**
+ * 1. Correct color not being inherited in IE 6/7/8/9.
+ * 2. Correct text not wrapping in Firefox 3.
+ * 3. Correct alignment displayed oddly in IE 6/7.
+ */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  white-space: normal;
+  /* 2 */
+  *margin-left: -7px;
+  /* 3 */
+}
+/**
+ * 1. Correct font size not being inherited in all browsers.
+ * 2. Address margins set differently in IE 6/7, Firefox 3+, Safari 5,
+ *    and Chrome.
+ * 3. Improve appearance and consistency in all browsers.
+ */
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+  vertical-align: baseline;
+  /* 3 */
+  *vertical-align: middle;
+  /* 3 */
+}
+/**
+ * Address Firefox 3+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+button,
+input {
+  line-height: normal;
+}
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Chrome, Safari 5+, and IE 6+.
+ * Correct `select` style inheritance in Firefox 4+ and Opera.
+ */
+button,
+select {
+  text-transform: none;
+}
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ * 4. Remove inner spacing in IE 7 without affecting normal text inputs.
+ *    Known issue: inner spacing remains in IE 6.
+ */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+  *overflow: visible;
+  /* 4 */
+}
+/**
+ * Re-set default cursor for disabled elements.
+ */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+/**
+ * 1. Address box sizing set to content-box in IE 8/9.
+ * 2. Remove excess padding in IE 8/9.
+ * 3. Remove excess padding in IE 7.
+ *    Known issue: excess padding remains in IE 6.
+ */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+  *height: 13px;
+  /* 3 */
+  *width: 13px;
+  /* 3 */
+}
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box;
+}
+/**
+ * Remove inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+/**
+ * Remove inner padding and border in Firefox 3+.
+ */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+/**
+ * 1. Remove default vertical scrollbar in IE 6/7/8/9.
+ * 2. Improve readability and alignment in all browsers.
+ */
+textarea {
+  overflow: auto;
+  /* 1 */
+  vertical-align: top;
+  /* 2 */
+}
+/* ==========================================================================
+	Tables
+	========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/**
+ * Import main styles (from HTML5BOILERPLATE)
+ */
+/*!
+HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+/* ==========================================================================
+	 Base styles: opinionated defaults
+	 ========================================================================== */
+html,
+button,
+input,
+select,
+textarea {
+  color: #222;
+}
+html {
+  font-size: 1em;
+  line-height: 1.4;
+}
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+/*
+ * A better looking default horizontal rule
+ */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+/*
+ * Remove the gap between images, videos, audio and canvas and the bottom of
+ * their containers: h5bp.com/i/440
+ */
+audio,
+canvas,
+img,
+video {
+  vertical-align: middle;
+}
+/*
+ * Remove default fieldset styles.
+ */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+/*
+ * Allow only vertical resizing of textareas.
+ */
+textarea {
+  resize: vertical;
+}
+/* ==========================================================================
+	 Browse Happy prompt
+	 ========================================================================== */
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+/* ==========================================================================
+	 Author's custom styles (see __user.less)
+	 ========================================================================== */
+/**
+ * Import fonts
+ */
+/**
+ * Import base64 encoded images
+ */
+/**
+ * Import user custom styles (your styles goes here)
+ */
+/*!
+User custom styles (overrides html5boilerplate styles) */
+/**
+ * ---------------------------------------------------------------------------
+ * TABLE OF CONTENTS
+ * ---------------------------------------------------------------------------
+ * 1.0 - VARIABLES
+ *   1.1 - COLORS
+ *   1.2 - PATHS
+ *   1.3 - MEASURES
+ *   1.4 - FONTS
+ * 2.0 - SITE & GENERIC
+ *   2.1 - Z-INDEX CONTROL
+ * 3.0 - HEADER
+ *   3.1 - NAVIGATION (MAIN)
+ * 4.0 - FOOTER
+ * 5.0 - GRID
+ * 6.0 - CONTENT(S)
+ *   6.1 - IMECE INTRO
+ *   6.2 - IMECE PERFORMERS | GUESTS
+ *   6.4 - IMECE ALBUM
+ *   6.5 - IMECE TARIKCI
+ *   6.6 - IMECE SOCIALS
+ *   6.7 - 404 PAGE
+ * 7.0 - HEADER
+ * 8.0 - OTHER
+ *   8.2 - FB PLUGINS 100% WIDTH OVERRIDE
+ *   8.3 - MODERNIZR OVERRIDES
+ * ---------------------------------------------------------------------------
+ */
+/*
+ * ---------------------------------------------------------------------------
+ * 1.0 VARIABLES
+ * ---------------------------------------------------------------------------
+ */
+/*
+ * ---------------------------------------------------------------------------
+ * 1.1 COLORS
+ * ---------------------------------------------------------------------------
+ */
+/*
+ * ---------------------------------------------------------------------------
+ * 1.2 PATHS
+ * ---------------------------------------------------------------------------
+ */
+/*
+ * ---------------------------------------------------------------------------
+ * 1.3 MEASURES
+ * ---------------------------------------------------------------------------
+ */
+/*
+ * ---------------------------------------------------------------------------
+ * 1.4 FONTS
+ * ---------------------------------------------------------------------------
+ */
+/*
+ * ---------------------------------------------------------------------------
+ * 2.0 SITE & GENERIC
+ * ---------------------------------------------------------------------------
+ */
+::-moz-selection {
+  background: #000000;
+  color: #ffffff;
+  text-shadow: none;
+}
+::selection {
+  background: #000000;
+  color: #ffffff;
+  text-shadow: none;
+}
+body {
+  font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-size: 14px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+}
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+input[type="search"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.menu {
+  padding: 0;
+  margin: 0;
+}
+.spinner {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 50%;
+  left: 50%;
+  margin-left: -10px;
+  margin-top: -10px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.spinner.light {
+  background-image: url('data:image/gif;base64,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');
+}
+.spinner.dark {
+  background-image: url('data:image/gif;base64,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');
+}
+figure {
+  position: relative;
+}
+figure img {
+  position: relative;
+  overflow: hidden;
+  -moz-opacity: 0;
+  -khtml-opacity: 0;
+  -webkit-opacity: 0;
+  opacity: 0;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+  filter: alpha(opacity=0);
+}
+figure figcaption {
+  position: relative;
+  font-family: 'Oswald', sans-serif;
+  color: #4a4a4a;
+  font-weight: 300;
+  font-size: 12px;
+  text-align: center;
+  margin: 1em 0;
+}
+/*
+#imece-events {
+
+	&.content {
+
+		padding: 0 !important;
+		margin: 0 !important;
+
+	}
+
+	.events {
+
+		position: absolute;
+		right: 0px;
+		top: 0px;
+		line-height: 1;
+		background-color: #c70909;
+		color: @color-white;
+		width: 100%;
+		font-size: 13px;
+		padding: 12px 30px 11px;
+		text-align: center;
+		
+		// heder div
+		h2 {		
+
+			display: inline;
+			font-family: @regular;
+			font-size: inherit;
+
+		}
+
+		ul {
+
+			list-style: none;
+			padding: 0;
+			margin: 0;
+			display: inline;
+
+			li {
+				
+				display: inline;
+
+				&:hover {
+
+					text-decoration: underline;
+
+				}
+
+			}
+
+		}
+
+		span {
+
+			display: inline-block;
+			padding: 0px 10px;
+
+		}
+
+	}
+
+}
+*/
+#imece-performers .spinner,
+#imece-guests .spinner {
+  margin-top: -30px;
+}
+#imece-performers .width-controller,
+#imece-guests .width-controller {
+  max-width: 480px;
+  margin: 0 auto;
+}
+#imece-performers figure span,
+#imece-guests figure span {
+  display: block;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+#imece-performers figure span.image-box,
+#imece-guests figure span.image-box {
+  border: 1px solid #ffffff;
+  -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.6);
+}
+#imece-performers figure span img,
+#imece-guests figure span img {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  overflow: hidden;
+  vertical-align: middle;
+}
+#imece-album figure span,
+#imece-tarikci figure span {
+  display: block;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+#imece-album figure span.image-box,
+#imece-tarikci figure span.image-box {
+  border: 1px solid #ffffff;
+  -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.6);
+}
+#imece-album figure span img,
+#imece-tarikci figure span img {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+/*
+ * ---------------------------------------------------------------------------
+ * 2.1 Z-INDEX CONTROL
+ * ---------------------------------------------------------------------------
+ *
+ * -----------------------------------------------
+ * z-index requires positioning value such as "pos
+ * ition: relative"
+ * -----------------------------------------------
+ */
+#imece-events-holder {
+  z-index: 930;
+}
+#site-header {
+  z-index: 900;
+}
+#site-content {
+  z-index: 600;
+}
+#site-footer {
+  z-index: 300;
+}
+figure .spinner {
+  z-index: 30;
+}
+figure img {
+  z-index: 60;
+}
+figure figcaption {
+  z-index: 90;
+}
+#imece-outro {
+  z-index: 63;
+}
+.image-overlay-cross {
+  z-index: 66;
+}
+/*
+ * ---------------------------------------------------------------------------
+ * 3.0 HEADER
+ * ---------------------------------------------------------------------------
+ */
+#site-header {
+  width: 100%;
+  position: relative;
+  background: #ffffff;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #f6f6f6), color-stop(1, #ffffff));
+  background: -ms-linear-gradient(bottom, #f6f6f6, #ffffff);
+  background: -moz-linear-gradient(center bottom, #f6f6f6 0%, #ffffff 100%);
+  background: -o-linear-gradient(#ffffff, #f6f6f6);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f6f6f6', GradientType=0);
+  -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+}
+#site-header.stuck {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+/*
+ * ---------------------------------------------------------------------------
+ * 3.1 NAVIGATION (MAIN)
+ * ---------------------------------------------------------------------------
+ */
+#site-navigation {
+  *zoom: 1;
+}
+#site-navigation:before,
+#site-navigation:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+#site-navigation:after {
+  clear: both;
+}
+.menu {
+  margin: 1.6em 0;
+}
+.menu li {
+  line-height: 1;
+  position: relative;
+  float: left;
+  display: inline-block;
+  margin: 0 1px;
+}
+.menu li.ralign-link {
+  float: right !important;
+}
+.menu a {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  color: #6d6d6d;
+  display: inline-block;
+  text-decoration: none;
+  padding: 5px 11px 5px;
+  font-size: 12px;
+  line-height: inherit;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  text-shadow: 0px 1px 0px #fff;
+}
+.menu a.current-section {
+  color: #ffffff;
+  background-color: #231f20;
+  text-shadow: none;
+}
+.menu a.hidden-section-link {
+  display: none;
+}
+/*
+ * ---------------------------------------------------------------------------
+ * 5.0 GRID
+ * ---------------------------------------------------------------------------
+ *
+ * -----------------------------------------------
+ * Embedded in main.css
+ * @see 34gs.less, 34gs-queries.less
+ * -----------------------------------------------
+ */
+.container {
+  max-width: 640px;
+}
+/*
+ * ---------------------------------------------------------------------------
+ * 6.0 CONTENT(S)
+ * ---------------------------------------------------------------------------
+ *
+ * -----------------------------------------------
+ * #content-{specifier} id's are hard-coded to spe
+ * cify it's content and provides a distinction fo
+ * r CSS rules. (all content sections wraps it's o
+ * wn styles)
+ * -----------------------------------------------
+ */
+.content {
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+section {
+  position: relative;
+}
+.section-heading {
+  padding: 2em;
+}
+.section-heading.center {
+  text-align: center;
+}
+.section-heading.right {
+  text-align: right;
+}
+.section-heading.justify {
+  text-align: justify;
+}
+.section-heading h1 {
+  margin-top: 0 !important;
+}
+/*
+ * ---------------------------------------------------------------------------
+ * 6.1 IMECE INTRO
+ * ---------------------------------------------------------------------------
+ */
+#imece-intro {
+  background-color: #010101;
+}
+#imece-intro .section-heading {
+  margin-top: 3em;
+}
+#imece-intro h1 {
+  color: #c3c3c3;
+}
+#imece-intro p {
+  color: #6f7173;
+}
+#imece-intro #imece-events-holder {
+  background-image: url('../img/bg-events.png');
+  background-repeat: repeat;
+  background-position: left top;
+  max-width: 40%;
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  padding: 30px 36px;
+  color: #a0a0a0;
+  font-size: 13px;
+}
+#imece-intro #imece-events-holder #close-events-button {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  background-image: url('../img/bg-btn-events-close.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+#imece-intro #imece-events-holder h2 {
+  margin: 0px 0px 6px 0px;
+  color: #f0f0f0;
+  font-size: 16px;
+  border-bottom: 1px solid #a0a0a0;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+}
+#imece-intro #imece-events-holder ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: block;
+  float: left;
+}
+#imece-intro #imece-events-holder ul li {
+  color: inherit;
+  line-height: 1.2;
+}
+#imece-intro #imece-events-holder ul.events-list li {
+  border-top: 1px solid #a0a0a0;
+  padding: 12px 70px 12px 0px;
+  position: relative;
+}
+#imece-intro #imece-events-holder ul.events-list li span.date-bigger {
+  position: absolute;
+  top: 10px;
+  right: 2px;
+  display: inline-block;
+  color: #f0f0f0;
+  font-family: 'Oswald', sans-serif;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: -0.04em;
+  font-weight: 700;
+  text-shadow: 2px 2px 0px #000;
+}
+#imece-intro #imece-events-holder ul.events-list li:first-child {
+  border-top: none;
+}
+#imece-intro #imece-events-holder ul.events-list li a {
+  text-decoration: none;
+  color: #CC6B6B;
+}
+/*
+ * ---------------------------------------------------------------------------
+ * 6.2 IMECE PERFORMERS | GUESTS
+ * ---------------------------------------------------------------------------
+ */
+#imece-performers.content {
+  padding-bottom: 0 !important;
+}
+#imece-performers {
+  background: #ffffff;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #f6f6f6), color-stop(1, #ffffff));
+  background: -ms-linear-gradient(bottom, #f6f6f6, #ffffff);
+  background: -moz-linear-gradient(center bottom, #f6f6f6 0%, #ffffff 100%);
+  background: -o-linear-gradient(#ffffff, #f6f6f6);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f6f6f6', GradientType=0);
+}
+#imece-guests,
+#imece-tarikci,
+#imece-comment {
+  background: #ffffff;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #ffffff), color-stop(1, #f6f6f6));
+  background: -ms-linear-gradient(bottom, #ffffff, #f6f6f6);
+  background: -moz-linear-gradient(center bottom, #ffffff 0%, #f6f6f6 100%);
+  background: -o-linear-gradient(#f6f6f6, #ffffff);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6f6f6', endColorstr='#ffffff', GradientType=0);
+}
+/*
+ * ---------------------------------------------------------------------------
+ * 6.4 IMECE ALBUM
+ * ---------------------------------------------------------------------------
+ */
+#imece-album {
+  background-image: url('data:image/png;base64,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');
+  background-repeat: repeat;
+}
+#imece-album .section-heading figure + h2 {
+  margin-top: 1.3em;
+}
+#imece-album .section-heading figure + h2 + p {
+  display: inline-block;
+  margin-top: 0;
+}
+#imece-album .section-heading h2,
+#imece-album .section-heading strong {
+  text-shadow: 0px 1px 0px #fff;
+}
+#imece-album ol,
+#imece-album ul {
+  display: block;
+  padding-left: 0;
+}
+#imece-album ol {
+  list-style: outside decimal;
+  margin-left: 1.5em;
+}
+#imece-album ul {
+  list-style: none;
+}
+/*
+ * ---------------------------------------------------------------------------
+ * 6.5 IMECE TARIKCI
+ * ---------------------------------------------------------------------------
+ */
+#imece-tarikci figure.inline-image {
+  float: left;
+}
+#imece-tarikci figure.inline-image img {
+  display: inline-block;
+  float: left;
+  max-width: 120px;
+  margin: 0.5em !important;
+  border: 1px solid #ffffff;
+  -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.6);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+/*
+ * ---------------------------------------------------------------------------
+ * 6.6 IMECE SOCIALS
+ * ---------------------------------------------------------------------------
+ */
+.social-buttons-holder {
+  margin-top: 2em;
+  height: 72px;
+}
+.social-buttons-holder > * {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+#imece-share {
+  background-image: url('data:image/png;base64,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');
+  background-repeat: repeat;
+}
+#imece-share,
+#imece-comment {
+  padding-top: 10em;
+  padding-bottom: 10em;
+}
+/*
+ * ---------------------------------------------------------------------------
+ * 6.7 404 PAGE
+ * ---------------------------------------------------------------------------
+ */
+/*
+ * ---------------------------------------------------------------------------
+ * 6.8 ARCHIVE CONTENTS
+ * ---------------------------------------------------------------------------
+ */
+/*
+ * ---------------------------------------------------------------------------
+ * 6.9 AUTHOR PAGE
+ * ---------------------------------------------------------------------------
+ */
+/*
+ * ---------------------------------------------------------------------------
+ * 6.10 ABOUT PAGE
+ * ---------------------------------------------------------------------------
+ */
+/*
+ * ---------------------------------------------------------------------------
+ * 4.0 FOOTER
+ * ---------------------------------------------------------------------------
+ */
+#site-footer {
+  *zoom: 1;
+}
+#site-footer:before,
+#site-footer:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+#site-footer:after {
+  clear: both;
+}
+#imece-outro {
+  position: relative;
+}
+#missofis-info {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background: #ffffff;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #f6f6f6), color-stop(1, #ffffff));
+  background: -ms-linear-gradient(bottom, #f6f6f6, #ffffff);
+  background: -moz-linear-gradient(center bottom, #f6f6f6 0%, #ffffff 100%);
+  background: -o-linear-gradient(#ffffff, #f6f6f6);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f6f6f6', GradientType=0);
+  font-size: 12px;
+}
+#missofis-info p {
+  text-align: center;
+  color: #4a4a4a;
+  text-shadow: 0px 1px 0px #fff;
+  margin: 1em 0;
+}
+#missofis-info a {
+  text-decoration: none;
+  font-size: inherit;
+  display: inline-block;
+  color: inherit;
+}
+#missofis-info a.go-to-main-site {
+  color: #ffffff;
+  background-color: #231f20;
+  text-shadow: none;
+  padding: 6px 11px 5px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+}
+#missofis-info a.go-to-missofis {
+  color: #e32286;
+}
+#missofis-info a.back-to-top {
+  color: #6d6d6d;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  text-shadow: 0px 1px 0px #fff;
+}
+#missofis-info .info-diams {
+  font-size: 9px;
+}
+/*
+ * ---------------------------------------------------------------------------
+ * 8.0 OTHER
+ * ---------------------------------------------------------------------------
+ */
+/*
+ * ---------------------------------------------------------------------------
+ * 8.2 FB PLUGINS 100% WIDTH OVERRIDE
+ * ---------------------------------------------------------------------------
+ */
+#commentform.override,
+.fb-social-plugin.override,
+.comment-form.override,
+.fb-comments.override,
+.fb_iframe_widget.override {
+  width: 100% !important;
+}
+#commentform.override span,
+.fb-social-plugin.override span,
+.comment-form.override span,
+.fb-comments.override span,
+.fb_iframe_widget.override span,
+#commentform.override iframe,
+.fb-social-plugin.override iframe,
+.comment-form.override iframe,
+.fb-comments.override iframe,
+.fb_iframe_widget.override iframe {
+  width: 100% !important;
+}
+/*
+ * ---------------------------------------------------------------------------
+ * 8.3 MODERNIZR OVERRIDES
+ * ---------------------------------------------------------------------------
+ */
+html {
+  /*
+	 * ---------------------------------------------------------------------------
+	 * DEFAULT STYLE (BROWSER NOT SUPPORT)
+	 * ---------------------------------------------------------------------------
+	 */
+  /*
+	 * ---------------------------------------------------------------------------
+	 * MODERNIZR OVERRIDE (BROWSER SUPPORTS)
+	 * ---------------------------------------------------------------------------
+	 */
+}
+html.no-touch .menu a:hover {
+  color: #ffffff;
+  background-color: #231f20;
+  text-shadow: none;
+}
+/**
+ * Import CSS helper classes (from HTML5BOILERPLATE)
+ */
+/*!
+HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+/*
+ * Image replacement
+ */
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+.invisible {
+  visibility: hidden;
+}
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+/**
+ * Import normalize (from HTML5BOILERPLATE)
+ */
+/*!
+LESS mixins. Site customs and LESS Elements 0.9 */
+/*
+	----------------------------------------------------------
+	CENTERED BY MARGIN
+	----------------------------------------------------------
+*/
+.margin-centered {
+  margin-left: auto;
+  margin-right: auto;
+}
+/*
+	----------------------------------------------------------
+	RELATIVE LEFT
+	----------------------------------------------------------
+*/
+.relative-left {
+  position: relative;
+  float: left;
+}
+/*
+	----------------------------------------------------------
+	TEXT SHADOWS
+	----------------------------------------------------------
+*/
+.text-engraved {
+  text-shadow: 0px 1px 0px #fff;
+}
+.engraved-text-dark {
+  text-shadow: 0px -1px 0px #000000;
+}
+.engraved-text-eserler {
+  text-shadow: 0px 1px 0px #888182;
+}
+.shadowed-text {
+  text-shadow: 0px 1px 0px #000;
+}
+/*
+	----------------------------------------------------------
+	BOX SHADOWS
+	----------------------------------------------------------
+*/
+.box-shadow-light {
+  -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+}
+.box-shadow-light-one {
+  -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.4);
+}
+.box-shadow-mid {
+  -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.6);
+}
+.box-shadow-light-inverted {
+  -webkit-box-shadow: 0px -1px 2px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px -1px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px -1px 2px rgba(0, 0, 0, 0.2);
+}
+.box-shadow-light-image {
+  -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.4);
+}
+/*
+	----------------------------------------------------------
+	OVERLAYS
+	----------------------------------------------------------
+*/
+.image-overlay-cross {
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAABUSURBVHgBAEQAu/8BHBwcAAwMDAD09PRADAwMwAIAAAAAAAAAQAAAAMAAAABAAgAAAEAAAADADAwMAAAAAMACAAAAwAAAAEAAAAAAAAAAQAEAAP//axMI5PpOhwAAAAAASUVORK5CYII=');
+  background-repeat: repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent !important;
+}
+/*
+	----------------------------------------------------------
+	BOX SIZING
+	----------------------------------------------------------
+	@see http://www.paulirish.com/2012/box-sizing-border-box-f
+	tw/
+	----------------------------------------------------------
+*/
+/*
+	----------------------------------------------------------
+	IMAGE REPLACEMENT
+	----------------------------------------------------------
+	From HTML5BOILERPLATE
+	----------------------------------------------------------
+*/
+.ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  /* IE 6/7 fallback */
+  *text-indent: -9999px;
+}
+.ir:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 150%;
+}
+/*
+	----------------------------------------------------------
+	GRADIENTS
+	----------------------------------------------------------
+*/
+.gradient-light {
+  background: #ffffff;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #f6f6f6), color-stop(1, #ffffff));
+  background: -ms-linear-gradient(bottom, #f6f6f6, #ffffff);
+  background: -moz-linear-gradient(center bottom, #f6f6f6 0%, #ffffff 100%);
+  background: -o-linear-gradient(#ffffff, #f6f6f6);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f6f6f6', GradientType=0);
+}
+.gradient-light-reversed {
+  background: #ffffff;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #ffffff), color-stop(1, #f6f6f6));
+  background: -ms-linear-gradient(bottom, #ffffff, #f6f6f6);
+  background: -moz-linear-gradient(center bottom, #ffffff 0%, #f6f6f6 100%);
+  background: -o-linear-gradient(#f6f6f6, #ffffff);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6f6f6', endColorstr='#ffffff', GradientType=0);
+}
+.stripfilm-gradient-light {
+  background: #fafafa;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #efefef), color-stop(1, #fdfdfd));
+  background: -ms-linear-gradient(bottom, #efefef, #fdfdfd);
+  background: -moz-linear-gradient(center bottom, #efefef 0%, #fdfdfd 100%);
+  background: -o-linear-gradient(#fdfdfd, #efefef);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fdfdfd', endColorstr='#efefef', GradientType=0);
+}
+.stripfilm-gradient-light-post {
+  background: #ffffff;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #ffffff), color-stop(1, #ffffff));
+  background: -ms-linear-gradient(bottom, #ffffff, #ffffff);
+  background: -moz-linear-gradient(center bottom, #ffffff 0%, #ffffff 100%);
+  background: -o-linear-gradient(#ffffff, #ffffff);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0);
+}
+.stripfilm-gradient-mid {
+  background: #f0f0f0;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #e5e5e5), color-stop(1, #f3f3f3));
+  background: -ms-linear-gradient(bottom, #e5e5e5, #f3f3f3);
+  background: -moz-linear-gradient(center bottom, #e5e5e5 0%, #f3f3f3 100%);
+  background: -o-linear-gradient(#f3f3f3, #e5e5e5);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f3f3f3', endColorstr='#e5e5e5', GradientType=0);
+}
+/*
+	----------------------------------------------------------
+	VISIBILITY CLASSES
+	----------------------------------------------------------
+*/
+.animation-hidden {
+  visibility: hidden;
+  -moz-opacity: 0;
+  -khtml-opacity: 0;
+  -webkit-opacity: 0;
+  opacity: 0;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+  filter: alpha(opacity=0);
+  overflow: hidden;
+}
+.animation-visible {
+  visibility: visible;
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  -webkit-opacity: 1;
+  opacity: 1;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=100);
+  filter: alpha(opacity=100);
+  overflow: visible;
+}
+.visible {
+  display: block !important;
+  visibility: visible;
+}
+/*
+	----------------------------------------------------------
+	CLEARFIX: contain floats (from HTML5BOILERPLATE, modified)
+	----------------------------------------------------------
+	For modern browsers (1) The space content is one way to
+	avoid an Opera bug when the `contenteditable` attribute is
+	included anywhere else in the document. Otherwise it
+	causes space to appear at the top and bottom of elements
+	that receive the `clearfix` class. (2) The use of `table`
+	rather than `block` is only necessary if using `:before`
+	to contain the top-margins of child elements.
+	----------------------------------------------------------
+*/
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.clearfix:after {
+  clear: both;
+}
+/*
+	----------------------------------------------------------
+	QUESTION CURSOR
+	----------------------------------------------------------
+*/
+.question-cursor {
+  cursor: help;
+}
+/*
+	----------------------------------------------------------
+	DISABLERS
+	----------------------------------------------------------
+*/
+.transition-blocker {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -o-transition: none !important;
+  transition: none !important;
+}
+.box-shadow-disabler {
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+}
+/*
+	----------------------------------------------------------
+	CANCELLERS
+	----------------------------------------------------------
+*/
+.box-shadow-canceller {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.transition-canceller {
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+/*
+	----------------------------------------------------------
+	TRANSITION RELATED
+	----------------------------------------------------------
+*/
+/*
+	----------------------------------------------------------
+	LESS Elements 0.9
+	----------------------------------------------------------
+	A set of useful LESS mixins
+	More info at: http://lesselements.com
+	----------------------------------------------------------
+*/
+/* re added above
+.box-sizing(@sizing: border-box) {
+	-ms-box-sizing: @sizing;
+	-moz-box-sizing: @sizing;
+	-webkit-box-sizing: @sizing;
+	box-sizing: @sizing;
+}
+*/
+/**
+ * Import sample query styles (from HTML5BOILERPLATE)
+ */
+/**
+ * Import 34Grid query styles (from 34Grid)
+ */
+/*!
+	34 Responsive Grid System
+	Multi-state, responsive CSS grid system
+
+	Developer	: Kemal Yılmaz
+	URL			: http://34grid.com
+	Contact		: http://kemalyilmaz.com
+				: http://twitter.com/xkema
+				: http://www.facebook.com/pages/34Grid/401562963236958
+	Version		: 1.0
+
+	LICENSED UNDER Creative Commons Attribution 3.0 Unported License.
+*/
+/* 
+	Main width-controller for your content. think ".container"
+	class as a holder for ".row" classes for a basic layout.
+	Default centered with margin 0 auto; style.
+	============================================================ CONTAINER ====
+*/
+.container {
+  margin: 0 auto;
+}
+/* 
+	Main grouping blocks. You can dump "n*100%"" width content to a
+	single ".row". (with the little help of .skip-float and manual 
+	.user-float classes)
+	================================================================== ROW ====
+*/
+.row {
+  width: 100%;
+  *zoom: 1;
+}
+.row:before,
+.row:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.row:after {
+  clear: both;
+}
+/* 
+	Column (col_*) and complement (col_*c) classes.
+	.col_0 class is not a must but i added it to
+	keep things organized. You can use it for 
+	marginless 100% widths.
+	================================================ COLUMNS & COMPLEMENTS ====
+*/
+/* columns & complements (autogenerated styles) */
+.col_0 {
+  width: 100%;
+  margin-bottom: 0px;
+  display: block;
+  float: left;
+}
+.col_1,
+.col_2,
+.col_3,
+.col_3c,
+.col_4,
+.col_4c,
+.col_5,
+.col_5c {
+  margin-left: 2.00%;
+  margin-right: 2.00%;
+  margin-bottom: 0px;
+  float: left;
+  display: block;
+}
+/* columns (autogenerated styles) */
+.col_1 {
+  width: 96%;
+}
+.col_2 {
+  width: 46%;
+}
+.col_3 {
+  width: 29.3333333333%;
+}
+.col_4 {
+  width: 21%;
+}
+.col_5 {
+  width: 16%;
+}
+/* complements (autogenerated styles) */
+.col_3c {
+  width: 62.6666666667%;
+}
+.col_4c {
+  width: 71%;
+}
+.col_5c {
+  width: 76%;
+}
+/* 
+	100% width auto control for "img", "object" and
+	"embed" controls.
+	============================================ IMAGE FULL WIDTH CONTROLS ====
+*/
+img,
+object,
+embed {
+  max-width: 100%;
+}
+img {
+  height: auto;
+}
+figure img {
+  max-width: 100%;
+}
+/* 
+	Use ".skip-float" class to start from brand new lines.
+	Clears left of current 100% group for new 100% 
+	lines in same ".row" group.
+	@see webpage for details
+	=============================================== FLOATING PROBLEM FIXER ====
+*/
+.skip-float {
+  clear: left;
+}
+/*
+	34 Responsive Grid System
+	Multi-state, responsive CSS grid system
+
+	Developer	: Kemal Yılmaz
+	URL			: http://34grid.com
+	Contact		: http://kemalyilmaz.com
+				: http://twitter.com/xkema
+				: http://www.facebook.com/pages/34Grid/401562963236958
+	Version		: 1.0
+
+	LICENSED UNDER Creative Commons Attribution 3.0 Unported License.
+*/
+/* 
+	===================================== DESKTOP, LARGE SCREENS ====
+*/
+@media only screen and (min-width: 1200px) {
+  /* user styles goes here */
+  #main-wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+}
+/* 
+	=========================================== DESKTOP < 1200px ====
+*/
+@media only screen and (max-width: 1200px) {
+  /* autogenerated styles */
+  /* user styles goes here */
+}
+/* 
+	============================================= IPAD LANDSCAPE ====
+*/
+@media only screen and (max-width: 1024px) {
+  /* autogenerated styles */
+  /* user styles goes here */
+  .menu {
+    margin: 1em 0;
+    text-align: center;
+  }
+  .menu li {
+    float: none;
+    margin: 1px 1px;
+  }
+  .menu li.ralign-link {
+    float: none !important;
+  }
+  .section-heading {
+    padding: 1em;
+  }
+  #imece-intro .section-heading {
+    margin-top: 2em;
+  }
+}
+/* 
+	============================================== IPAD PORTRAIT ====
+*/
+@media handheld, only screen and (max-width: 768px) {
+  /* autogenerated styles */
+  /* user styles goes here */
+  h1 {
+    font-size: 1.75em;
+    margin: 0.58625em 0;
+  }
+  h2 {
+    font-size: 1.3125em;
+    margin: 0.72625em 0;
+  }
+  /* user styles goes here */
+  #imece-intro .section-heading {
+    margin-top: 1em;
+  }
+  #imece-intro #imece-events-holder {
+    max-width: 70%;
+    right: 4px;
+    top: 4px;
+    padding: 10px 12px;
+  }
+}
+/* 
+	=========================================== IPHONE LANDSCAPE ====
+*/
+@media handheld, only screen and (max-width: 480px) {
+  /* autogenerated styles */
+  .col_2 {
+    width: 96%;
+  }
+  .col_3 {
+    width: 96%;
+  }
+  .col_4 {
+    width: 96%;
+  }
+  .col_5 {
+    width: 96%;
+  }
+  .col_2c {
+    width: 96%;
+  }
+  .col_3c {
+    width: 96%;
+  }
+  .col_4c {
+    width: 96%;
+  }
+  .col_5c {
+    width: 96%;
+  }
+  /* user styles goes here */
+  h1 {
+    font-size: 1.5em;
+    margin: 0.58625em 0;
+  }
+  figure figcaption {
+    z-index: 30;
+  }
+  figure .spinner {
+    z-index: 60;
+  }
+  figure img {
+    z-index: 90;
+  }
+  #imece-intro h1 {
+    display: none !important;
+    visibility: hidden;
+  }
+  #imece-album .section-heading {
+    text-align: center;
+  }
+  #imece-album ol {
+    list-style-position: inside;
+    margin-left: 0;
+  }
+  #imece-album figure {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+  #imece-performers .spinner,
+  #imece-guests .spinner {
+    left: 48px;
+    margin-left: 0;
+    margin-top: -10px;
+  }
+  #imece-performers figure,
+  #imece-guests figure {
+    margin-bottom: 10px;
+  }
+  #imece-performers figure span,
+  #imece-guests figure span {
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+  }
+  #imece-performers figure span img,
+  #imece-guests figure span img {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+  }
+  #imece-performers figure span img.image-box,
+  #imece-guests figure span img.image-box {
+    border-width: 6px;
+    border-color: transparent;
+  }
+  #imece-performers figure figcaption,
+  #imece-guests figure figcaption {
+    position: relative;
+    width: 100%;
+    height: 120px;
+    line-height: 120px;
+    margin: 0;
+    text-align: center;
+    text-shadow: 0px 1px 0px #fff;
+    padding-left: 114px;
+    -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.4);
+    -webkit-border-top-right-radius: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    -webkit-border-bottom-left-radius: 60px;
+    -webkit-border-top-left-radius: 60px;
+    -moz-border-radius-topright: 3px;
+    -moz-border-radius-bottomright: 3px;
+    -moz-border-radius-bottomleft: 60px;
+    -moz-border-radius-topleft: 60px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 60px;
+    border-top-left-radius: 60px;
+    -moz-background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background: #ffffff;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #f6f6f6), color-stop(1, #ffffff));
+    background: -ms-linear-gradient(bottom, #f6f6f6, #ffffff);
+    background: -moz-linear-gradient(center bottom, #f6f6f6 0%, #ffffff 100%);
+    background: -o-linear-gradient(#ffffff, #f6f6f6);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f6f6f6', GradientType=0);
+  }
+}
+/* 
+	============================================ IPHONE PORTRAIT ====
+*/
+@media handheld, only screen and (max-width: 320px) {
+  /* autogenerated styles */
+  /* reset .container width and max-width (in case user defines an explicit #id for her/his .container classes) */
+  .container {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  .col_1,
+  .col_2,
+  .col_3,
+  .col_3c,
+  .col_4,
+  .col_4c,
+  .col_5,
+  .col_5c {
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+  /* user styles goes here */
+}
+/* 
+	============================================ SO SMALL PHONES ====
+*/
+@media handheld, only screen and (max-width: 240px) {
+  /* user styles goes here */
+}
+/**
+ * Import print styles (from HTML5BOILERPLATE)
+ */
+/*!
+HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+@media print {
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    /* Black prints faster: h5bp.com/s */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+  /*
+     * Don't show links for images, or javascript/internal links
+     */
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+  thead {
+    display: table-header-group;
+    /* h5bp.com/t */
+  }
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+  img {
+    max-width: 100% !important;
+  }
+  @page {
+    margin: 0.5cm;
+  }
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
