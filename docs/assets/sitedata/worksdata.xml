@@ -1,0 +1,891 @@
+<?xml version="1.0" encoding="utf-8"?>
+<helix xmlns="http://kemalyilmaz.com/tehanu/1.0">
+	<project>abdurrahmantarikci dot com</project>
+	<application>web site</application>
+	<description>Abdurrahman Tarikci is a bass guitarist and tonmaister living in Ankara, Turkey.</description>
+	<language>tr</language>
+	<link>https://abdurrahmantarikci.com/</link>
+	<pubDate>[Publication date of project in RCF 822 format]</pubDate>
+	<lastUpdate>[Last update date of the document]</lastUpdate>
+	<webMaster>developer@kemalyilmaz.com</webMaster>
+	<works>
+		
+		<!--
+			id			: is auto assigned identifier
+			visible		: to visible content initially true/false
+			worktype	: album/arranger/performer/stage/series
+			worktype +	: commercial/festivals/tv/other/academic
+			name		: name of work
+			year		: as expected :)
+			producer	: recording company, producer, organization, ...
+			link		: use file names (both for links and hover images)
+			
+			NOTES		: do not use 2 seperate words worktype identifier or handle them programmatically
+		-->
+		
+		
+		<!--
+			album
+		-->
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>true</visible>
+			<worktype>album</worktype>
+			<name>THBT&apos;li Ezgiler</name>
+			<year>2002</year>
+			<producer>Herdem Müzik</producer>
+			<link>thbt-li-ezgiler.jpg</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>true</visible>
+			<worktype>album</worktype>
+			<name>Yağmur Öncesi - Nisan</name>
+			<year>2001</year>
+			<producer>Ada Müzik</producer>
+			<link>yagmur-oncesi-nisan.jpg</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>true</visible>
+			<worktype>album</worktype>
+			<name>Yağmur Öncesi - Duman Almış Yaylayı</name>
+			<year>1999</year>
+			<producer>Ant Müzik</producer>
+			<link>yagmur-oncesi-duman-almis-yaylayi.jpg</link>
+		</work>
+		<!--
+			arranger
+		-->
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>true</visible>
+			<worktype>arranger</worktype>
+			<name>Mustafa Acar - Daldalan</name>
+			<year>2011</year>
+			<producer>Kalan</producer>
+			<link>mustafa-acar-daldalan.jpg</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>true</visible>
+			<worktype>arranger</worktype>
+			<name>Firdevs Ertürk - Türkülerle Sohbet</name>
+			<year>2011</year>
+			<producer>Star</producer>
+			<link>firdevs-erturk-turkulerle-sohbet.jpg</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>true</visible>
+			<worktype>arranger</worktype>
+			<name>Gürsoy Babaoğlu - Armağan Türküler</name>
+			<year>2010</year>
+			<producer>Ahenk Müzik</producer>
+			<link>gursoy-armagan-turkuler.jpg</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>true</visible>
+			<worktype>arranger</worktype>
+			<name>İhsan Eş - Espira</name>
+			<year>2009</year>
+			<producer>Kalan</producer>
+			<link>ihsan-es-espira.jpg</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>true</visible>
+			<worktype>arranger</worktype>
+			<name>Celal Sezer - Felek Bahane</name>
+			<year>2009</year>
+			<producer>Ahenk Müzik</producer>
+			<link>celal-sezer-felek-bahane.jpg</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>true</visible>
+			<worktype>arranger</worktype>
+			<name>Taşkın &amp; Idris Altunel - Bizde Var</name>
+			<year>2009</year>
+			<producer>Çağ Müzik</producer>
+			<link>taskin-idris-altuner-bizde-var.jpg</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>true</visible>
+			<worktype>arranger</worktype>
+			<name>Grup Kibele - Bereket</name>
+			<year>2009</year>
+			<producer>Kalan</producer>
+			<link>grup-kibele-bereket.jpg</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>false</visible>
+			<worktype>arranger</worktype>
+			<name>Anadolu Çınarları - Esti Deli Gönül</name>
+			<year>2009</year>
+			<producer>Duygu Müzik</producer>
+			<link>anadolu-cinarlari.jpg</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>false</visible>
+			<worktype>arranger</worktype>
+			<name>Özgür Demirhan - Rüzgara Yazılan Türküler</name>
+			<year>2008</year>
+			<producer>Deka Müzik</producer>
+			<link>ozgur-demirhan-ruzgara-yazilan-turkuler-surgun.jpg</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>false</visible>
+			<worktype>arranger</worktype>
+			<name>Satılmış Koruk &amp; Yeter Köprülü - Gönlümde Açılan</name>
+			<year>2008</year>
+			<producer>Güvercin Müzik</producer>
+			<link>satilmis-koruk-yeter-koprulu-gonlumde-acilan.jpg</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>true</visible>
+			<worktype>arranger</worktype>
+			<name>Miras / Heritage</name>
+			<year>2007</year>
+			<producer>Tını Sanat</producer>
+			<link>miras-heritage.jpg</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>false</visible>
+			<worktype>arranger</worktype>
+			<name>Ahmet Sazlı - Sebebi Sensin</name>
+			<year>2007</year>
+			<producer>Türküola Müzik</producer>
+			<link>ahmet-sazli-sebebi-sensin.jpg</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>false</visible>
+			<worktype>arranger</worktype>
+			<name>Hüseyin Beydilli - Girdap</name>
+			<year>2007</year>
+			<producer>Ses Plak</producer>
+			<link>huseyin-beydilli-girdap.jpg</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>false</visible>
+			<worktype>arranger</worktype>
+			<name>Çankırı Türküleri</name>
+			<year>2006</year>
+			<producer>Çankırı Valiliği</producer>
+			<link>cankiri-turkuleri-cankiri-valiligi.jpg</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>false</visible>
+			<worktype>arranger</worktype>
+			<name>Vedat Ülger - Telkari Türküler</name>
+			<year>2006</year>
+			<producer>Güvercin Müzik</producer>
+			<link>vedat-ulger-telkari-turkuler.jpg</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>false</visible>
+			<worktype>arranger</worktype>
+			<name>Ismail Bektaş - Hey Özgürlük</name>
+			<year>2004</year>
+			<producer>Gövtepe Müzik</producer>
+			<link>ismail-bektas-hey-ozgurluk.jpg</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>true</visible>
+			<worktype>arranger</worktype>
+			<name>İl İl Türkülerimiz - Diyarbakır</name>
+			<year>2012</year>
+			<producer>TRT</producer>
+			<link>il-il-turkulerimiz-trt.jpg</link>
+		</work>
+		<!--
+			performer
+		-->
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>true</visible>
+			<worktype>performer</worktype>
+			<name>Selçuk Murat Kızılateş - Kadim</name>
+			<year>2011</year>
+			<producer>Seyhan Müzik</producer>
+			<link>selcuk-murat-kizilates-kadim.jpg</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>true</visible>
+			<worktype>performer</worktype>
+			<name>Bar Havaları &amp; Ağırlamalı Halaylar &amp; Zeybekler</name>
+			<year>2011</year>
+			<producer>Kültür Bakanlığı</producer>
+			<link>kultur-bakanligi-bar-havalari-agirlamali-halaylar-zeybekler.jpg</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>true</visible>
+			<worktype>performer</worktype>
+			<name>Geleneksel Müziğimizde Divanlar ve Klasik Uzun Havalar</name>
+			<year>2011</year>
+			<producer>Kültür Bakanlığı</producer>
+			<link>kultur-bakanligi-divanlar-klasik-uzun-havalar.jpg</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>true</visible>
+			<worktype>performer</worktype>
+			<name>Şanlıurfa Musıkisinde Gazeller</name>
+			<year>2011</year>
+			<producer>Kültür Bakanlığı</producer>
+			<link>kultur-bakanligi-gazeller.jpg</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>false</visible>
+			<worktype>performer</worktype>
+			<name>Onur Akgül - Gümüşhane Güzeli</name>
+			<year>2010</year>
+			<producer>Seyhan Müzik</producer>
+			<link>onur-akgul-gumushane-guzeli.jpg</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>true</visible>
+			<worktype>performer</worktype>
+			<name>Posta Türküleri</name>
+			<year>2010</year>
+			<producer>PTT</producer>
+			<link>ptt-mektup-turkuleri.jpg</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>true</visible>
+			<worktype>performer</worktype>
+			<name>Mavi Siyah Flamenko Topluluğu- MaviSiyah</name>
+			<year>2009</year>
+			<producer>Kaf Müzik</producer>
+			<link>mavi-siyah-flamenko-toplulugu-mavisiyah.jpg</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>false</visible>
+			<worktype>performer</worktype>
+			<name>İhsan Eş - Espira</name>
+			<year>2009</year>
+			<producer>Kalan</producer>
+			<link>ihsan-es-espira.jpg</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>true</visible>
+			<worktype>performer</worktype>
+			<name>Celal Sezer - Felek Bahane</name>
+			<year>2009</year>
+			<producer>Ahenk Müzik</producer>
+			<link>celal-sezer-felek-bahane.jpg</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>false</visible>
+			<worktype>performer</worktype>
+			<name>Taşkın &amp; İdris Altunel - Bizde Var</name>
+			<year>2009</year>
+			<producer>Çağ Müzik</producer>
+			<link>taskin-idris-altuner-bizde-var.jpg</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>true</visible>
+			<worktype>performer</worktype>
+			<name>Grup Kibele - Bereket</name>
+			<year>2009</year>
+			<producer>Kalan</producer>
+			<link>grup-kibele-bereket.jpg</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>false</visible>
+			<worktype>performer</worktype>
+			<name>Anadolu Çınarları - Esti Deli Gönül</name>
+			<year>2009</year>
+			<producer>Duygu Müzik</producer>
+			<link>anadolu-cinarlari.jpg</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>false</visible>
+			<worktype>performer</worktype>
+			<name>Vira Cemal - Alaf</name>
+			<year>2009</year>
+			<producer>4 Mart Müzik</producer>
+			<link>#</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>false</visible>
+			<worktype>performer</worktype>
+			<name>Zeynep Karababa - Gülyüzlüm</name>
+			<year>2008</year>
+			<producer>Kalan</producer>
+			<link>vira-cemal-alaf.jpg</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>false</visible>
+			<worktype>performer</worktype>
+			<name>Nurşah - Söyleyemedim</name>
+			<year>2008</year>
+			<producer>Mega Müzik</producer>
+			<link>nursah-soyleyemedim.jpg</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>false</visible>
+			<worktype>performer</worktype>
+			<name>Özgür Demirhan - Rüzgara Yazılan Türküler</name>
+			<year>2008</year>
+			<producer>Deka Müzik</producer>
+			<link>ozgur-demirhan-ruzgara-yazilan-turkuler-surgun.jpg</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>false</visible>
+			<worktype>performer</worktype>
+			<name>Satılmış Koruk &amp; Yeter Köprülü - Gönlümde Açılan</name>
+			<year>2008</year>
+			<producer>Güvercin Müzik</producer>
+			<link>satilmis-koruk-yeter-koprulu-gonlumde-acilan.jpg</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>false</visible>
+			<worktype>performer</worktype>
+			<name>Miras / Heritage</name>
+			<year>2008</year>
+			<producer>Tını Sanat</producer>
+			<link>#</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>false</visible>
+			<worktype>performer</worktype>
+			<name>Yılmaz Mengüş - Sevebilirsin</name>
+			<year>2008</year>
+			<producer>Ulusum Müzik</producer>
+			<link>miras-heritage.jpg</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>false</visible>
+			<worktype>performer</worktype>
+			<name>Okan Murat Öztürk - Aşk Adamı Söyletir</name>
+			<year>2007</year>
+			<producer>Doğan Müzik</producer>
+			<link>okan-murat-ozturk-ask-adami-soyletir.jpg</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>false</visible>
+			<worktype>performer</worktype>
+			<name>Ferhat Durmuş - Harabat</name>
+			<year>2007</year>
+			<producer>Seyhan Müzik</producer>
+			<link>ferhat-durmus-harabat.jpg</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>false</visible>
+			<worktype>performer</worktype>
+			<name>Ahmet Sazlı - Sebebi Sensin</name>
+			<year>2007</year>
+			<producer>Türküola Müzik</producer>
+			<link>ahmet-sazli-sebebi-sensin.jpg</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>false</visible>
+			<worktype>performer</worktype>
+			<name>Tolga Çandar - Doğu</name>
+			<year>2007</year>
+			<producer>Anadolu Müzik</producer>
+			<link>tolga-candar-dogu.jpg</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>false</visible>
+			<worktype>performer</worktype>
+			<name>Hüseyin Beydilli - Girdap</name>
+			<year>2007</year>
+			<producer>Ses Plak</producer>
+			<link>huseyin-beydilli-girdap.jpg</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>false</visible>
+			<worktype>performer</worktype>
+			<name>Nurettin Rençber - Uzakta</name>
+			<year>2006</year>
+			<producer>Iber Müzik</producer>
+			<link>nurettin-rencber-uzakta.jpg</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>false</visible>
+			<worktype>performer</worktype>
+			<name>Çankırı Türküleri</name>
+			<year>2006</year>
+			<producer>Çankırı Valiliği</producer>
+			<link>cankiri-turkuleri-cankiri-valiligi.jpg</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>false</visible>
+			<worktype>performer</worktype>
+			<name>Vedat Ülger - Telkari Türküler</name>
+			<year>2006</year>
+			<producer>Güvercin Müzik</producer>
+			<link>vedat-ulger-telkari-turkuler.jpg</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>false</visible>
+			<worktype>performer</worktype>
+			<name>Volkan Erdoğan - Anlatamam</name>
+			<year>2006</year>
+			<producer>NB Müzik</producer>
+			<link>volkan-erdogan-anlatamam.jpg</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>false</visible>
+			<worktype>performer</worktype>
+			<name>Hasan Yükselir - Ben Türküyüm</name>
+			<year>2005</year>
+			<producer>Maya Müzik</producer>
+			<link>hasan-yukselir-ben-turkuyum.jpg</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>false</visible>
+			<worktype>performer</worktype>
+			<name>Ismail Bektaş - Hey Özgürlük</name>
+			<year>2004</year>
+			<producer>Gövtepe Müzik</producer>
+			<link>ismail-bektas-hey-ozgurluk.jpg</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>false</visible>
+			<worktype>performer</worktype>
+			<name>Tolga Çandar - Sarı Zeybek</name>
+			<year>2003</year>
+			<producer>Anadolu Müzik</producer>
+			<link>tolga-candar-dogu.jpg</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>false</visible>
+			<worktype>performer</worktype>
+			<name>Poetica Mente Felice - Dedica Segreta</name>
+			<year>2002</year>
+			<producer>Attrazioni Napolitane psc</producer>
+			<link>poetica-mente-felice.jpg</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>true</visible>
+			<worktype>performer</worktype>
+			<name>İl İl Türkülerimiz - Diyarbakır</name>
+			<year>2012</year>
+			<producer>TRT</producer>
+			<link>il-il-turkulerimiz-trt.jpg</link>
+		</work>
+		<!--
+			stage
+		-->
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>true</visible>
+			<worktype>stage</worktype>
+			<name>O.D.T.Ü Türk Halk Bilimi Topluluğu - Halk Oyunları Gecesi</name>
+			<year>2006</year>
+			<producer></producer>
+			<link>#</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>true</visible>
+			<worktype>stage</worktype>
+			<name>O.D.T.Ü Türk Halk Bilimi Topluluğu - Yelkovan</name>
+			<year>2005</year>
+			<producer></producer>
+			<link>#</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>true</visible>
+			<worktype>stage</worktype>
+			<name>O.D.T.Ü Türk Halk Bilimi Topluluğu - Sedefli Kama Mor Cepken</name>
+			<year>2004</year>
+			<producer></producer>
+			<link>#</link>
+		</work>
+		<!--
+			series
+		-->
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>true</visible>
+			<worktype>series</worktype>
+			<name>Komşu Köyün Delisi</name>
+			<year>2009</year>
+			<producer>TRT</producer>
+			<link>#</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>true</visible>
+			<worktype>series</worktype>
+			<name>Kınacılar Konağı</name>
+			<year>2008</year>
+			<producer>Flash TV</producer>
+			<link>#</link>
+		</work>
+		<!--
+			commercial
+		-->
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>true</visible>
+			<worktype>commercial</worktype>
+			<name>Düet Gecesi</name>
+			<year>2011</year>
+			<producer>TRT</producer>
+			<link>#</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>true</visible>
+			<worktype>commercial</worktype>
+			<name>Benim Adım Çanakkale</name>
+			<year>2011</year>
+			<producer>TRT</producer>
+			<link>#</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>true</visible>
+			<worktype>commercial</worktype>
+			<name>Nasıl Yapılır</name>
+			<year>2011</year>
+			<producer>TRT</producer>
+			<link>#</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>false</visible>
+			<worktype>commercial</worktype>
+			<name>Çerağ</name>
+			<year>2010</year>
+			<producer>TRT</producer>
+			<link>#</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>true</visible>
+			<worktype>commercial</worktype>
+			<name>Bergüzar</name>
+			<year>2008</year>
+			<producer>TRT</producer>
+			<link>#</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>false</visible>
+			<worktype>commercial</worktype>
+			<name>Dem Bu Dem</name>
+			<year>2006</year>
+			<producer>TRT</producer>
+			<link>#</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>false</visible>
+			<worktype>commercial</worktype>
+			<name>Çözüm Dersanesi</name>
+			<year>2005</year>
+			<producer></producer>
+			<link>#</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>false</visible>
+			<worktype>commercial</worktype>
+			<name>Ulusoy Tohumculuk</name>
+			<year>2005</year>
+			<producer></producer>
+			<link>#</link>
+		</work>
+		<!--
+			festivals
+		-->	
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>true</visible>
+			<worktype>festivals</worktype>
+			<name>Ankara Müzik Festivali</name>
+			<year>1998</year>
+			<producer></producer>
+			<link>#</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>true</visible>
+			<worktype>festivals</worktype>
+			<name>Akbank Caz Festivali</name>
+			<year>1997, 1998</year>
+			<producer></producer>
+			<link>#</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>true</visible>
+			<worktype>festivals</worktype>
+			<name>O.D.T.Ü Caz Festivali</name>
+			<year>1996</year>
+			<producer></producer>
+			<link>#</link>
+		</work>	
+		<!--
+			tv
+		-->
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>true</visible>
+			<worktype>tv</worktype>
+			<name>Düet Gecesi</name>
+			<year>2011</year>
+			<producer>TRT</producer>
+			<link>#</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>true</visible>
+			<worktype>tv</worktype>
+			<name>Katre</name>
+			<year>2010</year>
+			<producer>TRT</producer>
+			<link>#</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>true</visible>
+			<worktype>tv</worktype>
+			<name>Bir Nefes Anadolu</name>
+			<year>2010</year>
+			<producer>TRT</producer>
+			<link>#</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>false</visible>
+			<worktype>tv</worktype>
+			<name>Erguvan</name>
+			<year>2010</year>
+			<producer>TRT</producer>
+			<link>#</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>false</visible>
+			<worktype>tv</worktype>
+			<name>Türkü Söylemek Lazım</name>
+			<year>2010</year>
+			<producer>TRT</producer>
+			<link>#</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>false</visible>
+			<worktype>tv</worktype>
+			<name>Çalsın Davullar</name>
+			<year>2010</year>
+			<producer>TRT</producer>
+			<link>#</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>true</visible>
+			<worktype>tv</worktype>
+			<name>Bergüzar</name>
+			<year>2010</year>
+			<producer>TRT</producer>
+			<link>#</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>true</visible>
+			<worktype>tv</worktype>
+			<name>Tatlı Dile Güler Yüze</name>
+			<year>2010</year>
+			<producer>TRT</producer>
+			<link>#</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>false</visible>
+			<worktype>tv</worktype>
+			<name>Balkan Havası</name>
+			<year>2009</year>
+			<producer>TRT</producer>
+			<link>#</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>false</visible>
+			<worktype>tv</worktype>
+			<name>Dem Bu Dem</name>
+			<year>2009</year>
+			<producer>TRT</producer>
+			<link>#</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>true</visible>
+			<worktype>tv</worktype>
+			<name>Üçü Bir Yerde</name>
+			<year>2009</year>
+			<producer>TRT</producer>
+			<link>#</link>
+		</work>
+		<!--
+			other
+		-->		
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>true</visible>
+			<worktype>other</worktype>
+			<name>O.D.T.Ü Türk Halk Bilimi Topluluğu Korosu Şefi</name>
+			<year>2006, 2008</year>
+			<producer></producer>
+			<link>#</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>true</visible>
+			<worktype>other</worktype>
+			<name>O.D.T.Ü Türk Halk Bilimi Topluluğu Çok Sesli Bağlama Topluluğu Şefi</name>
+			<year>1996, 1997</year>
+			<producer></producer>
+			<link>#</link>
+		</work>
+		<!--
+			academic
+		-->
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>true</visible>
+			<worktype>academic</worktype>
+			<name>Analysis of Turkish Art Music Songs via Fractal Dimension</name>
+			<year>2010</year>
+			<producer>Doktora Tezi</producer>
+			<link>analysis-of-turkish-art-music-songs-via-fractal-dimension-abdurrahman-tarikci.pdf</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>true</visible>
+			<worktype>academic</worktype>
+			<name>Collisional Damping of Giant Resonances with an Optimized Finite Range Effective Interaction</name>
+			<year>2002</year>
+			<producer>Bilimsel Makale</producer>
+			<link>collisional-damping-of-giant-resonances-with-an-optimized-finite-range-effective-interaction.pdf</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>true</visible>
+			<worktype>academic</worktype>
+			<name>Anadolu Müziğinde Koro Denemeleri ve Öğretim Metodlarının Uygulanması</name>
+			<year>2002</year>
+			<producer>Panel Bildiri Metni</producer>
+			<link>halkbilimi-anadolu-muziginde-koro-denemeleri.pdf</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>true</visible>
+			<worktype>academic</worktype>
+			<name>Son ki Üç Dört</name>
+			<year>2011</year>
+			<producer>Makale</producer>
+			<link>odtululer-bulteni-son-ki-uc-dort-abdurrahman-tarikci.pdf</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>true</visible>
+			<worktype>academic</worktype>
+			<name>Violence Preventive Effect of Music of Alevi Society</name>
+			<year>2011</year>
+			<producer>Çalıştay Bildiri Metni</producer>
+			<link>violence-preventive-effect-of-music-of-alevi-society.pdf</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>true</visible>
+			<worktype>academic</worktype>
+			<name>Cengiz Özkan - Ah İstanbul</name>
+			<year>2001</year>
+			<producer>Albüm İncelemesi</producer>
+			<link>halkbilimi-album-cengiz-ozkan-ah-istanbul.pdf</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>true</visible>
+			<worktype>academic</worktype>
+			<name>Erkan Oğur &amp; Okan Murat Öztürk - Hiç</name>
+			<year>1999</year>
+			<producer>Albüm İncelemesi</producer>
+			<link>halkbilimi-album-erkan-ogur-okan-murat-ozturk-hic.pdf</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>true</visible>
+			<worktype>academic</worktype>
+			<name>Erkan Oğur &amp; İsmail Hakkı Demircioğlu - Anadolu Beşik</name>
+			<year>1999</year>
+			<producer>Albüm İncelemesi</producer>
+			<link>halkbilimi-album-erkan-ogur-ismail-hakki-demircioglu-anadolu-besik.pdf</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>true</visible>
+			<worktype>academic</worktype>
+			<name>Laço Tayfa - Bergama Gaydası</name>
+			<year>2000</year>
+			<producer>Albüm İncelemesi</producer>
+			<link>halkbilimi-album-laco-tayfa-bergama-gaydasi.pdf</link>
+		</work>
+		<work>
+			<id>[auto assigned value]</id>
+			<visible>true</visible>
+			<worktype>academic</worktype>
+			<name>Habbecik - An Meselesi</name>
+			<year>2000</year>
+			<producer>Albüm İncelemesi</producer>
+			<link>halkbilimi-album-habbecik-an-meselesi.pdf</link>
+		</work>
+		
+		
+		
+		
+	
+	</works>
+</helix>
