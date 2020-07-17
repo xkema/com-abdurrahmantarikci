@@ -182,7 +182,9 @@ function __createGalleries() {
     $("a[rel^='prettyPhoto']").prettyPhoto({
         animation_speed: 'normal',
         theme: 'facebook',
-        opacity: 0.64
+        opacity: 0.64,
+        social_tools: false,
+        show_title: false
     });
     $.extend(_api_images_1, ['assets/photos/01.jpg', 'assets/photos/02.jpg', 'assets/photos/03.jpg', 'assets/photos/04.jpg', 'assets/photos/05.jpg', 'assets/photos/06.jpg', 'assets/photos/07.jpg', 'assets/photos/08.jpg', 'assets/photos/09.jpg', 'assets/photos/10.jpg', 'assets/photos/11.jpg', 'assets/photos/12.jpg', 'assets/photos/13.jpg', 'assets/photos/14.jpg', 'assets/photos/15.jpg', 'assets/photos/16.jpg', 'assets/photos/17.jpg', 'assets/photos/18.jpg', 'assets/photos/19.jpg', 'assets/photos/20.jpg', 'assets/photos/21.jpg', 'assets/photos/22.jpg', 'assets/photos/23.jpg', 'assets/photos/24.jpg', 'assets/photos/25.jpg', 'assets/photos/26.jpg', 'assets/photos/27.jpg', 'assets/photos/28.jpg', 'assets/photos/29.jpg', 'assets/photos/30.jpg', 'assets/photos/31.jpg', 'assets/photos/32.jpg', 'assets/photos/33.jpg', 'assets/photos/34.jpg', 'assets/photos/35.jpg', 'assets/photos/36.jpg', 'assets/photos/37.jpg', 'assets/photos/38.jpg', 'assets/photos/39.jpg', 'assets/photos/40.jpg', 'assets/photos/41.jpg', 'assets/photos/42.jpg']);
 }
